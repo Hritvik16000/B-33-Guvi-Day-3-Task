@@ -81,27 +81,7 @@ section: B31WD
 mailid: example42@email.se
 
 
-d)JSON Object using for each loop
 
-let json = [{
-    "id" : "1", 
-    "name"   : "RD",
-    "section" : "B31WD",
-    "mailid": "example1@email.com"
-},
-{
-    "id" : "2", 
-    "name"   : "Niks",
-    "section" : "B31WD",
-    "mailid": "example2@email.se"
-}];
-
-for(let i=0;i<json.length;i++){  
-      console.log(json[i].id);
-   }
-// Output:
-1
-2
 -------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------
 
